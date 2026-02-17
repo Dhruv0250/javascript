@@ -1,0 +1,22 @@
+/* .navbarcontainer{ */
+    /* width: 400px;
+    height: 70vh;
+background-color: #ffcc80;
+border-radius: 20px;
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+overflow: hidden;
+box-shadow: 0 6px 6px rgba(0, 0, 0, 0 .23);
+} */
+.navbarcontainer ul li{
+    width: 400px;
+    height: 70vh;
+background-color: #ffcc80;
+border-radius: 20px;
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+overflow: hidden;
+box-shadow: 0 6px 6px rgba(0, 0, 0, 0 .23);
+}
