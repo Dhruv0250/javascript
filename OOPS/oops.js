@@ -37,3 +37,5 @@ const userOne=new User("Dhruv",8,true)
 const userTwo= new User("another",11,false)
 
 console.log(userOne)
+
+console.log(userTwo)
