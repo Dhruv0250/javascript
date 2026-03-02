@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121;">
+</body>
+<script>
+const RequestUrl='https://api.github.com/users/Dhruv0250'
+
+  const hxr= new XMLHttpRequest()
+ hxr.open('GET', RequestUrl)
+hxr.onreadystatechange=function(){
+console.log(hxr.readyState)
+ if(hxr.readyState===4){
+  const Data=JSON.parse(this.responseText)
+    console.log(Data.followers )
+  console.log( typeof Data)
+
+ }
+}
+
+hxr.send()
+</script>
+</html>
